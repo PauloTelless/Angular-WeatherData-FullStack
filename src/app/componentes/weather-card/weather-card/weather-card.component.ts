@@ -10,9 +10,4 @@ import { faDroplet, faTemperatureHigh, faTemperatureLow, faWind } from '@fortawe
 export class WeatherCardComponent {
   @Input() weatherDatasInput!: WeatherDatas
 
-  minTemperatureIcon = faTemperatureLow;
-  maxTemperaturaIcon = faTemperatureHigh;
-  humidityIcon = faDroplet;
-  windIcon = faWind;
-
 }
