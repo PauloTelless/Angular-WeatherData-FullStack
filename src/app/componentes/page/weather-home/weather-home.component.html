@@ -1,0 +1,17 @@
+<div class="search">
+  <form #form="ngForm" (submit)="onSubmit">
+    <div class="text-center">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Cidade</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" placeholder="Nome da cidade" name="city" [(ngModel)]="initialName" autocomplete="off" required>
+        </div>
+      <div>
+        <button type="button" class="btn btn-primary" (click)="onSubmit()">Verificar</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<app-weather-card *ngIf="watherDatas" [weatherDatasInput]="watherDatas"></app-weather-card>

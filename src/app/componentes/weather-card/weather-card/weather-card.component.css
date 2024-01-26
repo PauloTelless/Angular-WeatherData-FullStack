@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 8%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.with-shadow {
+  box-shadow: 20px 20px 20px rgba(90, 85, 85, 0.1); /* Ajuste conforme necessário */
+}
+
