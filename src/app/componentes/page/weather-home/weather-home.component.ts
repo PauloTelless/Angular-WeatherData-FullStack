@@ -1,5 +1,3 @@
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HttpClient } from '@angular/common/http';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
 import { WeatherDatas } from 'src/app/models/interfaces/weatherDatas.interface';
