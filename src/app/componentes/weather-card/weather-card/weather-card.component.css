@@ -11,6 +11,10 @@
   margin-left: 8%;
 }
 
+.container h3{
+  font-weight: bolder;
+}
+
 .overlay-text {
   position: absolute;
   top: 35%;
